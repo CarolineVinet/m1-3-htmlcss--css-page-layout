@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0px;
+
+    
+
+}
+
+img{
+    width: 100%;
+    border: red 1px solid
+}
