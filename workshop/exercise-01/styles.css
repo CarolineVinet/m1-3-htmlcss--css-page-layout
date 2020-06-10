@@ -1,0 +1,38 @@
+body{
+margin: 0;
+
+}
+.container{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    min-width: 100vw;
+}
+.tops{
+    background-color: grey;
+    color: white;
+    font-family:'Poppins';
+    font-size: 14px;  
+    text-align: center;
+    
+}
+
+.content{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 24px; 
+    min-width: 100vw;
+    flex: 1;
+    display: flex;
+    
+    
+}
+
+p{
+    margin:auto
+}
+
+
+
+
