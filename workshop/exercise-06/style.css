@@ -4,10 +4,45 @@ body {
 
 .nav {
   background-color: #383737;
+  color: white;
+
 }
 
 .nav-dropdown {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  padding: 10px;
+  flex:1;
 }
+
+.nav-dropdown:hover > .main{
+position:absolute;
+top:38px;
+left:0;
+display: block;
+}
+
+.main {
+  display: none;
+}
+
+ul > li:hover{                /*this is the wildest thing I have ever seen......*/
+  background-color: blue;
+}
+
+ul{
+  list-style-type: none;
+  text-decoration: none;
+  padding:0px;
+  max-width: 100px;
+  margin: 0px;
+}
+
+li{
+  color: white;
+  padding:10px;
+background-color:dodgerblue;
+
+  }
+
