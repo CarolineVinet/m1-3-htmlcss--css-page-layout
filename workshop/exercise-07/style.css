@@ -1,7 +1,53 @@
 body {
-  margin: 0;
+  margin: 20px;
 }
 
 .mobile-nav-button img {
   width: 18px;
+
+ 
 }
+
+.desktop-nav{
+  position:fixed;
+  top: 0px;
+  right:20px;
+  font-weight: bold;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+li{
+  padding: 20px;
+  list-style-type:none;
+
+}
+
+
+.mobile-nav{
+    position:fixed;
+    top: 25px;
+    right:20px;
+  
+  }
+
+
+
+
+@media (max-width:800px){
+      .desktop-nav{
+        display:none
+    }
+}
+
+@media (min-width:801px){
+  .mobile-nav{
+    display:none
+}
+}
+
